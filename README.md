@@ -22,11 +22,11 @@
 
 ## ⚙️ Core Architecture & Components
 
-* **Opus Codec Integration (`src/opus_codec.cpp`)**: High-efficiency audio compression and decompression for streaming workflows[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span).
-* **Real-Time Guard (`src/rt_guard.cpp`)**: Protects audio callback threads against priority inversions, blocking operations, and allocation spikes[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span).
-* **Lock-Free Audio Ring Buffer (`src/audio_ring_buffer.cpp`)**: Thread-safe buffering optimized for multi-track scaling and low-latency execution[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).
-* **Sample Conversion & Channel Mapping (`src/sample_convert.cpp`, `src/channel_map.cpp`)**: Flexible routing and format conversions for varied hardware layouts[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
-* **Telemetry Diagnostics (`src/telemetry.cpp`)**: Localized performance metrics capture without external data transmission[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span).
+* **Opus Codec Integration (`src/opus_codec.cpp`)**: High-efficiency audio compression and decompression for streaming w.
+* **Real-Time Guard (`src/rt_guard.cpp`)**: Protects audio callback threads against priority inversions, blocking operations, and allocation.
+* **Lock-Free Audio Ring Buffer (`src/audio_ring_buffer.cpp`)**: Thread-safe buffering optimized for multi-track scaling and low-latency.
+* **Sample Conversion & Channel Mapping (`src/sample_convert.cpp`, `src/channel_map.cpp`)**: Flexible routing and format conversions for varied hardware layouts.
+* **Telemetry Diagnostics (`src/telemetry.cpp`)**: Localized performance metrics capture without external data transmission.
 
 ---
 
