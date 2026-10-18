@@ -33,11 +33,11 @@
 ## 🖥️ Platform Backends
 
 * **Windows (`src/windows/`)**: 
-  * Full ASIO driver implementation (`crystal_asio_driver.cpp`)[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span).
-  * WASAPI audio hardware backend (`wasapi_backend.cpp`)[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span).
+  * Full ASIO driver implementation (`crystal_asio_driver.cpp`).
+  * WASAPI audio hardware backend (`wasapi_backend.cpp`).
 * **macOS (`src/macos/`)**: 
-  * CoreAudio HAL plugin integration (`crystal_hal_plugin.cpp`)[span_14](start_span)[span_14](end_span)[span_15](start_span)[span_15](end_span).
-  * Automated installation helper scripts (`scripts/install_macos.sh`)[span_16](start_span)[span_16](end_span)[span_17](start_span)[span_17](end_span).
+  * CoreAudio HAL plugin integration (`crystal_hal_plugin.cpp`).
+  * Automated installation helper scripts (`scripts/install_macos.sh`).
 
 ---
 
