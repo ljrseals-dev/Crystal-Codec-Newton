@@ -22,7 +22,7 @@
 
 ## ⚙️ Core Architecture & Components
 
-* **Opus Codec Integration (`src/opus_codec.cpp`)**: High-efficiency audio compression and decompression for streaming w.
+* **Opus Codec Integration (`src/opus_codec.cpp`)**: High-efficiency audio compression and decompression for streaming workflows.
 * **Real-Time Guard (`src/rt_guard.cpp`)**: Protects audio callback threads against priority inversions, blocking operations, and allocation.
 * **Lock-Free Audio Ring Buffer (`src/audio_ring_buffer.cpp`)**: Thread-safe buffering optimized for multi-track scaling and low-latency.
 * **Sample Conversion & Channel Mapping (`src/sample_convert.cpp`, `src/channel_map.cpp`)**: Flexible routing and format conversions for varied hardware layouts.
