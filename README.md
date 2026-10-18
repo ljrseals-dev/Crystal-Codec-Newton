@@ -9,22 +9,51 @@
 <img src="[https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-lightgrey.svg](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-lightgrey.svg)" alt="Platforms">
 <img src="[https://img.shields.io/badge/Telemetry-None-success.svg](https://img.shields.io/badge/Telemetry-None-success.svg)" alt="Zero Telemetry">
 </p>
+<p align="center">
+  <img src="watermarked_img_1282064540424722921.jpg" alt="Crystal-ASIO-Codec Banner" width="100%">
+</p>
+
+# <p align="center">CRYSTAL-ASIO-Codec v1.0.0</p>
+<p align="center"><strong>Advanced Cross-Platform Real-Time Audio Driver & Codec</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+  <img src="https://img.shields.io/badge/C++-20-blue.svg" alt="C++20">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-lightgrey.svg" alt="Platforms">
+  <img src="https://img.shields.io/badge/Telemetry-None-success.svg" alt="Zero Telemetry">
+</p>
+
+---
+
 ## 🌟 Overview
+
 **Crystal-ASIO-Codec** is a high-performance, low-latency cross-platform audio driver and streaming codec designed for professional audio engineering environments. Built from the ground up with **C++20**, it prioritizes rigorous real-time safety, deterministic execution, and complete privacy with **zero telemetry** or tracking SDKs.
+
+---
+
 ## ⚙️ Core Architecture & Components
- * **Opus Codec Integration (src/opus_codec.cpp)**: High-efficiency audio compression and decompression for streaming workflows.
- * **Real-Time Guard (src/rt_guard.cpp)**: Protects audio callback threads against priority inversions, blocking operations, and allocation spikes.
- * **Lock-Free Audio Ring Buffer (src/audio_ring_buffer.cpp)**: Thread-safe buffering optimized for multi-track scaling and low-latency execution.
- * **Sample Conversion & Channel Mapping (src/sample_convert.cpp, src/channel_map.cpp)**: Flexible routing and format conversions for varied hardware layouts.
- * **Telemetry Diagnostics (src/telemetry.cpp)**: Localized performance metrics capture without external data transmission.
+
+* **Opus Codec Integration (`src/opus_codec.cpp`)**: High-efficiency audio compression and decompression for streaming workflows[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span).
+* **Real-Time Guard (`src/rt_guard.cpp`)**: Protects audio callback threads against priority inversions, blocking operations, and allocation spikes[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span).
+* **Lock-Free Audio Ring Buffer (`src/audio_ring_buffer.cpp`)**: Thread-safe buffering optimized for multi-track scaling and low-latency execution[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span).
+* **Sample Conversion & Channel Mapping (`src/sample_convert.cpp`, `src/channel_map.cpp`)**: Flexible routing and format conversions for varied hardware layouts[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
+* **Telemetry Diagnostics (`src/telemetry.cpp`)**: Localized performance metrics capture without external data transmission[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span).
+
+---
+
 ## 🖥️ Platform Backends
- * **Windows (src/windows/)**:
-   * Full ASIO driver implementation (crystal_asio_driver.cpp).
-   * WASAPI audio hardware backend (wasapi_backend.cpp).
- * **macOS (src/macos/)**:
-   * CoreAudio HAL plugin integration (crystal_hal_plugin.cpp).
-   * Automated installation helper scripts (scripts/install_macos.sh).
+
+* **Windows (`src/windows/`)**: 
+  * Full ASIO driver implementation (`crystal_asio_driver.cpp`)[span_10](start_span)[span_10](end_span)[span_11](start_span)[span_11](end_span).
+  * WASAPI audio hardware backend (`wasapi_backend.cpp`)[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span).
+* **macOS (`src/macos/`)**: 
+  * CoreAudio HAL plugin integration (`crystal_hal_plugin.cpp`)[span_14](start_span)[span_14](end_span)[span_15](start_span)[span_15](end_span).
+  * Automated installation helper scripts (`scripts/install_macos.sh`)[span_16](start_span)[span_16](end_span)[span_17](start_span)[span_17](end_span).
+
+---
+
 ## 📁 Repository Structure
+
 ```text
 Crystal-ASIO-Codec-v1.0.0/
 ├── CMakeLists.txt              # Root CMake build configuration
@@ -37,25 +66,3 @@ Crystal-ASIO-Codec-v1.0.0/
 │   ├── macos/                  # macOS CoreAudio HAL components
 │   └── windows/                # Windows ASIO & WASAPI components
 └── tests/                      # Unit test suites
-
-```
-## 🚀 Building from Source
-Ensure you have a **C++20** compatible compiler and **CMake** installed.
-```bash
-# Clone the repository
-git clone https://github.com/ljrseals-dev/Crystal-Codec-Newton.git
-cd Crystal-Codec-Newton
-
-# Configure and build
-cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release
-
-```
-## 📄 Documentation
-Detailed documentation and integration notes are available under the docs/ directory:
- * Architecture Design
- * ASIO SDK Integration
- * macOS Setup Guide
- * Build Status & Gates
-## 📝 License
-This project is open-source software licensed under the **MIT License**.
