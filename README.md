@@ -1,14 +1,3 @@
-# <p align="center">CRYSTAL-ASIO-Codec v1.0.0</p>
-<p align="center"><strong>Advanced Cross-Platform Real-Time Audio Driver & Codec</strong></p>
-<p align="center">
-<img src="watermarked_img_1282064540424722921.jpg" alt="Crystal-ASIO-Codec Banner" width="100%">
-</p>
-<p align="center">
-<img src="[https://img.shields.io/badge/License-MIT-blue.svg](https://img.shields.io/badge/License-MIT-blue.svg)" alt="License: MIT">
-<img src="[https://img.shields.io/badge/C++-20-blue.svg](https://img.shields.io/badge/C++-20-blue.svg)" alt="C++20">
-<img src="[https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-lightgrey.svg](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-lightgrey.svg)" alt="Platforms">
-<img src="[https://img.shields.io/badge/Telemetry-None-success.svg](https://img.shields.io/badge/Telemetry-None-success.svg)" alt="Zero Telemetry">
-</p>
 <p align="center">
   <img src="watermarked_img_1282064540424722921.jpg" alt="Crystal-ASIO-Codec Banner" width="100%">
 </p>
