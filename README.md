@@ -56,28 +56,27 @@ Crystal-ASIO-Codec-v1.0.0/
 │   └── windows/                # Windows ASIO & WASAPI components
 └── tests/                      # Unit test suites
 
-🚀 Building from Source
-Ensure you have a C++20 compatible compiler and CMake installed.
-bash
+```
+## 🚀 Building from Source
+Ensure you have a **C++20** compatible compiler and **CMake** installed.
+```bash
 # Clone the repository
 git clone [https://github.com/ljrseals-dev/Crystal-Codec-Newton.git](https://github.com/ljrseals-dev/Crystal-Codec-Newton.git)
 cd Crystal-Codec-Newton
-
-<br>
 
 # Configure and build
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release
 
-<br>
-
-📄 Documentation
+```
+## 📄 Documentation
 Detailed documentation and integration notes are available under the docs/ directory:
-• Architecture Design
-• ASIO SDK Integration
-• macOS Setup Guide
-• Build Status & Gates
-📝 License
-This project is open-source software licensed under the MIT License.
-<br>
+ * Architecture Design
+ * ASIO SDK Integration
+ * macOS Setup Guide
+ * Build Status & Gates
+## 📝 License
+This project is open-source software licensed under the **MIT License**.
+```
 
+```
